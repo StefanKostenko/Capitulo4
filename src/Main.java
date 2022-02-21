@@ -9,16 +9,16 @@ public class Main {
         Scanner teclado=new Scanner(System.in);
         System.out.println("Introduce el número para la criba de Erastótenes:");
 
-        int dato=teclado.nextInt();
-        int vector[]=new int[dato];
+        int valor=teclado.nextInt();
+        int vector[]=new int[valor];
 
-        System.out.println("\nVector inicial hasta :"+dato);
+        System.out.println("\nVector inicial hasta :"+valor);
         for (int i = 0; i < vector.length; i++) {
             if (i%10==0) System.out.println();
             System.out.print(i+1+"\t");
         }
-        vector=generarPrimos(dato);
-        System.out.println("\nVector de primos hasta:"+dato);
+        vector=generarPrimos(valor);
+        System.out.println("\nVector de primos hasta:"+valor);
         for (int i = 0; i < vector.length; i++) {
             if (i%10==0) System.out.println();
             System.out.print(vector[i]+"\t");
