@@ -3,6 +3,12 @@ import java.util.Scanner;
 
 public class Main {
 
+    /**
+     * Pedimos al usuario los valores.
+     * @dato es la variable del valor que le asigna el usuario.
+     * @vector es una array de los valores que asigna el usuario.
+     */
+
     public static void main(String[] args) {
         //Pedir variable
         Scanner teclado=new Scanner(System.in);
@@ -24,7 +30,11 @@ public class Main {
         }
     }
 
-    // Generar números primos de 1 a max
+    /**
+     * Generar números primos de 1 a max
+     * @param max el maximo que pueda haber en la array
+     * @return devuelve los primos.
+     */
     public static int[] generarPrimos (int max)
     {
         int i,j;
