@@ -1,4 +1,3 @@
-package com.company;
 import java.util.Scanner;
 
 public class Main {
@@ -46,8 +45,6 @@ public class Main {
             for (i=0; i<dim; i++)
                 esPrimo[i] = true;
             // Eliminar el 0 y el 1, que no son primos
-            Capítulo 4:OPTIMIZACIÓN Y DOCUMENTACIÓN
-            EJERCICIOS PROPUESTOS
             esPrimo[0] = esPrimo[1] = false;
             // Criba
             for (i=2; i<Math.sqrt(dim)+1; i++) {
