@@ -31,8 +31,8 @@ public class Main {
     }
 
     /**
-     * Generar números primos de 1 a max
-     * @param max el maximo que pueda haber en la array
+     * Generar números primos de 1 a max.
+     * @param max el maximo que pueda haber en la array.
      * @return devuelve los primos.
      */
     public static int[] generarPrimos (int max)
